@@ -1,0 +1,32 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size:25px;
+    font-family: 'Shizuru', cursive;
+    width:100%;
+    margin:0px;
+    color:rgb(12, 156, 240);
+    font-weight: bold;
+}
+#status , #start , #number_of_objects{
+    font-size : 18px;
+    border: double;
+}
+canvas{
+    border : 2px solid white;
+    border-radius:10px;
+    margin-top:80px;
+    box-shadow:10px 10px 10px grey;
+}
+.copy_right_footer{
+    position:fixed;
+    color:white;
+    bottom: 0;
+    width:100%;
+    background-color:orange;
+    line-height: 1.5;
+    text-align:center;
+    font-weight: bold;
+    font-size: 18px;
+}
